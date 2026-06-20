@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on001971-blue)](https://doi.org/10.82901/nemar.on001971)
+
 
  This mobile brain body imaging (MoBI) gait adaptation experiment contains 18 subjects. 
 Participants were walking on a treadmill at a constant speed and were required to step in 
