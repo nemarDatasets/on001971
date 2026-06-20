@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on001971",
-  "source": "openneuro",
-  "source_id": "ds001971",
+  "pipeline_stage": "validated",
   "title": "Audiocue walking study",
+  "license": "Creative commons",
+  "dataset_type": "raw",
   "authors": {
     "Johanna Wagner": {},
     "Ramon Martinez-Cancino": {},
@@ -13,32 +13,98 @@
     "Teodoro Solis-Escalante": {},
     "Gernot Mueller-Putz": {}
   },
-  "license": "Creative commons",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds001971.v1.1.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on001971",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on001971",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1523/JNEUROSCI.3671-15.2016",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.2.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "Future Labs Reloaded 2013 of the Faculty of Computer Science at the Graz University of Technology, Austria, OeAD (Austrian Agency for International Mobility)."
     },
     {
-      "funder_name": "Marietta Blau Grant to J.W., the BMWF (Austrian Federal Ministry of Science and Research)."
+      "funder_name": " Marietta Blau Grant to J.W., the BMWF (Austrian Federal Ministry of Science and Research)."
     },
     {
       "funder_name": "Gift to University of California San Diego by the Swartz Foundation (Old Field, NY)."
+    },
+    {
+      "funder_name": "Graz University of Technology",
+      "award_title": "Future Labs Reloaded 2013"
+    },
+    {
+      "funder_name": "OeAD (Austrian Agency for International Mobility)"
+    },
+    {
+      "funder_name": "BMWF (Austrian Federal Ministry of Science and Research)",
+      "award_title": "Marietta Blau Grant"
+    },
+    {
+      "funder_name": "Swartz Foundation"
     }
-  ]
+  ],
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "This mobile brain body imaging (MoBI) dataset comprises EEG recordings from 18 participants performing a gait adaptation task on a treadmill. Subjects were instructed to synchronize their stepping with an auditory pacing stimulus while adapting to tempo shifts, providing insights into the neural mechanisms underlying rhythmic motor control and auditory-motor integration during locomotion.",
+  "methods_description": "Participants walked on a treadmill at constant speed while synchronizing their steps to an auditory tone sequence. The task required real-time adaptation of step length and rate in response to occasional tempo shifts (faster or slower pacing stimuli). EEG was recorded during the task using mobile brain body imaging (MoBI) methodology.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "gait adaptation"
+    },
+    {
+      "term": "auditory-motor synchronization"
+    },
+    {
+      "term": "treadmill walking"
+    },
+    {
+      "term": "motor control"
+    },
+    {
+      "term": "mobile brain body imaging"
+    },
+    {
+      "term": "tempo adaptation"
+    },
+    {
+      "term": "rhythmic motor control"
+    },
+    {
+      "term": "locomotion"
+    }
+  ],
+  "source_hash": "03ebf0aa47a3783b1e0b511b0afc2834bb85a4eb51c7eaaaf76f8f239f2c001b"
 }
