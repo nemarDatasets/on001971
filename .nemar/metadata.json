@@ -3,7 +3,7 @@
   "pipeline_stage": "validated",
   "title": "Audiocue walking study",
   "description": "This mobile brain body imaging (MoBI) dataset comprises EEG recordings from 18 subjects performing a gait adaptation task on a treadmill. Participants were instructed to synchronize their stepping with an auditory pacing stimulus and adapt their gait parameters (step length and rate) in response to tempo shifts. The dataset provides multimodal neurophysiological data during dynamic motor behavior, enabling investigation of neural mechanisms underlying auditory-motor coupling and gait adaptation.",
-  "methods_description": "Participants walked on a treadmill at constant speed while synchronizing their steps to an auditory tone sequence. The protocol included occasional tempo shifts requiring subjects to adapt their step length and rate to faster or slower pacing stimuli. EEG was recorded during the task as part of mobile brain body imaging (MoBI) methodology.",
+  "methods_description": "Participants walked on a treadmill at constant speed while synchronizing their steps to an auditory tone sequence. Occasional tempo shifts (faster or slower) required participants to adapt their step length and rate accordingly. EEG and motion data were recorded during the task.",
   "license": "Creative commons",
   "dataset_type": "raw",
   "authors": {
@@ -26,7 +26,7 @@
       "term": "auditory-motor coupling"
     },
     {
-      "term": "mobile brain body imaging"
+      "term": "mobile brain imaging"
     },
     {
       "term": "treadmill walking"
@@ -72,12 +72,11 @@
       "award_title": "Future Labs Reloaded 2013 of the Faculty of Computer Science"
     },
     {
-      "funder_name": "OeAD",
-      "award_title": "Austrian Agency for International Mobility"
+      "funder_name": "OeAD (Austrian Agency for International Mobility)"
     },
     {
-      "funder_name": "BMWF",
-      "award_title": "Austrian Federal Ministry of Science and Research - Marietta Blau Grant"
+      "funder_name": "BMWF (Austrian Federal Ministry of Science and Research)",
+      "award_title": "Marietta Blau Grant"
     },
     {
       "funder_name": "Swartz Foundation"
